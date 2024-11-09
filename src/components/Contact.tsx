@@ -9,7 +9,7 @@ const Contact = () => {
 
   const [showPopup, setShowPopup] = useState(false);
 
-  const handleTwitterClick = (e:any) => {
+  const handleTwitterClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     setShowPopup(true);
   };

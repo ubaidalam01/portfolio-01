@@ -1,6 +1,5 @@
 import { UserObject } from "@/app/models/User"
 import { NavItems } from "@/app/models/Header"
-import { todo } from "node:test"
 
 
 export const userInfo:UserObject = {
