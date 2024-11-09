@@ -1,5 +1,6 @@
 import { UserObject } from "@/app/models/User"
 import { NavItems } from "@/app/models/Header"
+import { todo } from "node:test"
 
 
 export const userInfo:UserObject = {
@@ -23,9 +24,9 @@ export const headerItems : NavItems = {
 }
 
 export const projects = {
-    gmail: { image: 'https://i.ibb.co/0hzRX4n/thomas-bormans-pcps-Vsy-Fp-s-unsplash.jpg' },
-    flipkart: { image: 'https://i.ibb.co/gz5413B/roman-skrypnyk-DEga33-BYvm-A-unsplash.jpg' },
-    google: { image: 'https://i.ibb.co/R7NdCYy/venkatesan-p-N7-HL-UBHUIQ-unsplash.jpg' },
-    indeed: { image: 'https://i.ibb.co/18tT9G8/stock-birken-Xiw1-CCHSv-FE-unsplash.jpg' },
-    crud: { image: 'https://i.ibb.co/yfXw008/indra-projects-RU5f-Jw-Lin-Kc-unsplash.jpg' }, 
+    todoApp: { image: 'https://i.ibb.co/0hzRX4n/thomas-bormans-pcps-Vsy-Fp-s-unsplash.jpg' },
+    simpleCalculator: { image: 'https://i.ibb.co/gz5413B/roman-skrypnyk-DEga33-BYvm-A-unsplash.jpg' },
+    Clock: { image: 'https://i.ibb.co/R7NdCYy/venkatesan-p-N7-HL-UBHUIQ-unsplash.jpg' },
+    CurrencyConvertor: { image: 'https://i.ibb.co/18tT9G8/stock-birken-Xiw1-CCHSv-FE-unsplash.jpg' },
+    Alarm: { image: 'https://i.ibb.co/yfXw008/indra-projects-RU5f-Jw-Lin-Kc-unsplash.jpg' }, 
 }

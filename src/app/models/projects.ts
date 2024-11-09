@@ -1,6 +1,7 @@
 interface Projects {
-    gmail: object,
-    flipkart: object,
-    google: object,
-    indeed: object
+    todoApp: object,
+    simpleCalculator: object,
+    Clock: object,
+    CurrencyConvertor:object;
+    Alarm: object
 }

@@ -27,11 +27,11 @@ const About = () => {
             {
               userInfo.skills.map((skill, index) => (
              <span
-             key={index}  // Adding a unique key using the index
+             key={index}  
              className="bg-gray-300 m-1 p-2 text-sm inline-block text-black break-words"
-            >
-            {skill}
-            </span>
+                  >
+      {skill}
+    </span>
   ))
 }
             </div>
