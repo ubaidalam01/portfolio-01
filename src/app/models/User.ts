@@ -1,7 +1,7 @@
 export interface UserObject {
-    name: string;
+    name: string;    
     pictures: string;
-    heading:any;
+    heading:string;
     about:string;
     skills:Array<string>
 }

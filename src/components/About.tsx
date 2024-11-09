@@ -24,11 +24,16 @@ const About = () => {
                className='m-auto'   
             />
             <div className='mt-3'>
-              {
-                userInfo.skills.map(skill => (  
-                  <span className='bg-gray-300 m-1 p-2 text-sm inline-block text-black break-words  '>{skill}</span>
-                ))
-              } 
+            {
+              userInfo.skills.map((skill, index) => (
+             <span
+             key={index}  // Adding a unique key using the index
+             className="bg-gray-300 m-1 p-2 text-sm inline-block text-black break-words"
+            >
+            {skill}
+            </span>
+  ))
+}
             </div>
         </div>
     </section>
