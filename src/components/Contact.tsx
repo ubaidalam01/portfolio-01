@@ -37,7 +37,7 @@ const Contact = () => {
             type="text"
             id="name"
             placeholder="Your Name"
-            className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:border-teal-600"
+            className="w-full p-3 text-black rounded border border-gray-300 focus:outline-none focus:border-teal-600"
           />
         </div>
         <div className="mb-4">
@@ -48,7 +48,7 @@ const Contact = () => {
             type="email"
             id="email"
             placeholder="Your Email"
-            className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:border-teal-600"
+            className="w-full p-3 text-black   rounded border border-gray-300 focus:outline-none focus:border-teal-600"
           />
         </div>
         <div className="mb-4">
@@ -59,7 +59,7 @@ const Contact = () => {
             id="message"
             placeholder="Your Message"
             rows={4}
-            className="w-full p-3 rounded border border-gray-300 focus:outline-none focus:border-teal-600"
+            className="w-full text-black p-3 rounded border border-gray-300 focus:outline-none focus:border-teal-600"
           />
         </div>
         <button 
@@ -85,7 +85,7 @@ const Contact = () => {
 
      {showPopup && (
         <div className="fixed inset-0 bg-white bg-opacity-50 flex justify-center items-center">
-          <div className="bg-[#25141f] p-6 rounded shadow-lg max-w-sm mx-auto text-center">
+          <div className="bg-white p-6 rounded shadow-lg max-w-sm mx-auto text-center">
             <h2 className="text-xl font-semibold text-red-500">Twitter is Banned in Pakistan</h2>
             <p className="mt-2 text-red-500">Unfortunately, Twitter is banned in your region.</p>
             <button 
