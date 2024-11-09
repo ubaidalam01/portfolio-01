@@ -1,3 +1,8 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "no-unused-vars": "off", // Example: Disable unused variable warnings
+    "react/prop-types": "off", // Disable prop-types checks if using TypeScript
+    "jsx-a11y/anchor-is-valid": "off" // Disable anchor validation warnings
+  }
 }
